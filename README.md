@@ -1,5 +1,5 @@
 ```
-import { sm2, sm3, sm4 } from 'https://deno.land/x/smcrypto@v1.0.0/index.js';
+import { sm2, sm3, sm4 } from 'https://deno.land/x/smcrypto@v1.0.1/index.js';
 ```
 
 ## sm2
