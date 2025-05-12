@@ -100,6 +100,8 @@ let sm3HashData = sm3('msgString', {
 ## sm4
 
 ```
+let sm4Key = sm4.generateKey(); //获取sm4的随机密钥
+
 let sm4EncryptData_ecb = sm4.encrypt('msgString', sm4Key); // 加密，默认输出 16 进制字符串，默认使用 pkcs#7 填充（传 pkcs#5 也会走 pkcs#7 填充）
 let sm4EncryptData_cbc = sm4.encrypt('msgString', sm4Key, {mode: 'cbc', iv: 'fedcba98765432100123456789abcdef'}); // 加密，cbc 模式
 
